@@ -1,0 +1,18 @@
+//
+//  JKCRM-Prefix.pch
+//  JKCRM
+//
+//  Created by Jakey on 14/11/26.
+//  Copyright (c) 2014年 www.skyfox.org. All rights reserved.
+//
+
+#ifndef JKCRM_JKCRM_Prefix_pch
+#define JKCRM_JKCRM_Prefix_pch
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "QuickDialog.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif

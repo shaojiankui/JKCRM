@@ -1,0 +1,98 @@
+[
+ {
+ "name": "Main",
+ "action": 100001,
+ "icon": [
+          "menu_icon_main.png",
+          "menu_icon_main_press.png"
+          ]
+ },
+ {
+ "name": "customer",
+ "action": 100002,
+ "icon": [
+          "menu_icon_main.png",
+          "menu_icon_main_press.png"
+          ]
+ },
+ {
+ "name": "buy",
+ "action": 100003,
+ "icon": [
+          "menu_icon_main.png",
+          "menu_icon_main_press.png"
+          ]
+ },
+ {
+ "name": "sale",
+ "action": 100004,
+ "icon": [
+          "menu_icon_main.png",
+          "menu_icon_main_press.png"
+          ]
+ },
+ {
+ "name": "XXX",
+ "action": 100005,
+ "icon": [
+          "menu_icon_main.png",
+          "menu_icon_main_press.png"
+          ]
+ },
+ {
+ "name": "XXX",
+ "action": 100006,
+ "icon": [
+          "menu_icon_main.png",
+          "menu_icon_main_press.png"
+          ]
+ },
+ {
+ "name": "XXX",
+ "action": 100007,
+ "icon": [
+          "menu_icon_main.png",
+          "menu_icon_main_press.png"
+          ]
+ },
+ {
+ "name": "XXX",
+ "action": 100008,
+ "icon": [
+          "menu_icon_main.png",
+          "menu_icon_main_press.png"
+          ]
+ },
+ {
+ "name": "XXX",
+ "action": 100009,
+ "icon": [
+          "menu_icon_main.png",
+          "menu_icon_main_press.png"
+          ]
+ },
+ {
+ "name": "XXX",
+ "action": 100010,
+ "icon": [
+          "menu_icon_main.png",
+          "menu_icon_main_press.png"
+          ]
+ },
+ {
+ "name": "XXX",
+ "action": 1000011,
+ "icon": [
+          "menu_icon_main.png",
+          "menu_icon_main_press.png"
+          ]
+ },
+ {
+ "name": "XXX",
+ "action": 100012,
+ "icon": [
+          "menu_icon_main.png",
+          "menu_icon_main_press.png"
+          ]
+ }
+]
