@@ -78,7 +78,6 @@
 }
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-   // MenuCell *cell = (MenuCell *)[collectionView dequeueReusableCellWithReuseIdentifier:@"MenuCell" forIndexPath:indexPath];
     [self.menuView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"MenuCell"];
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"MenuCell" forIndexPath:indexPath];
     cell.backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[_menuList[indexPath.row]objectForKey:@"icon"][0]]];
@@ -107,19 +106,19 @@
         case 100002:
         {
             self.masterViewController.masterItem  = [[CustomerMasterViewController alloc]init];
-            self.detailViewController.detailItem  = [[CustomerDetailViewController alloc]init];
+            self.detailViewController.detailItem  = nil;
         }
             break;
         case 100003:
         {
             self.masterViewController.masterItem  = [[BuyMasterViewController alloc]init];
-            self.detailViewController.detailItem  = [[BuyDetailViewController alloc]init];
+            self.detailViewController.detailItem  = nil;
         }
             break;
         case 100004:
         {
             self.masterViewController.masterItem  = [[SaleMasterViewController alloc]init];
-            self.detailViewController.detailItem  = [[SaleDetailViewController alloc]init];
+            self.detailViewController.detailItem  = nil;
         }
             break;
             

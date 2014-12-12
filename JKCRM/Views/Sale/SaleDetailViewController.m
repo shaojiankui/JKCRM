@@ -17,13 +17,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.titleLable.text = self.sale.saleName;
+    self.root = [[QRootElement alloc] initWithJSONFile:@"SaleDetailViewController" andData:[self.sale toDictionary]];
+
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(void)test:(QElement *)button{
 
+
+}
 /*
 #pragma mark - Navigation
 

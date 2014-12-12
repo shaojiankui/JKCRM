@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController
-
+@interface DetailViewController : UIViewController<UINavigationControllerDelegate>
+@property (nonatomic,assign) BOOL waitNavigation;
 @property (strong, nonatomic) id detailItem;
 @property (strong, nonatomic) UINavigationController *detailNavigationController;
 @end

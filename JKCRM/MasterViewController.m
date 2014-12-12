@@ -30,9 +30,13 @@
         }
         [self.masterNavigationController popToRootViewControllerAnimated:NO];
         [self.masterNavigationController pushViewController:self.masterItem animated:NO];
-        [self.masterNavigationController.view setNeedsLayout];
-        [self.masterNavigationController.view setNeedsDisplay];
     }
+    if (self.masterItem == nil) {
+        [self.masterNavigationController popToRootViewControllerAnimated:NO];
+    }
+    
+    [self.masterNavigationController.view setNeedsLayout];
+    [self.masterNavigationController.view setNeedsDisplay];
 }
 
 - (void)viewDidLoad

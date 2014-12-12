@@ -13,4 +13,7 @@
     AppDelegate  *app = (AppDelegate*)[[UIApplication sharedApplication]delegate];
     return app.rootViewController.splitViewController;
 }
++(AppDelegate*)APP{
+    return (AppDelegate*)[[UIApplication sharedApplication] delegate];
+}
 @end

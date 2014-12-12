@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A21B4C201A37FC1800ACB1EF /* SaleDetailViewController.json in Resources */ = {isa = PBXBuildFile; fileRef = A21B4C1F1A37FC1800ACB1EF /* SaleDetailViewController.json */; };
 		A21FD16A1A240A82003EAD19 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FD1681A240A82003EAD19 /* DetailViewController.m */; };
 		A21FD16B1A240A82003EAD19 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21FD1691A240A82003EAD19 /* DetailViewController.xib */; };
 		A21FD1741A24109F003EAD19 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FD1721A24109F003EAD19 /* MasterViewController.m */; };
@@ -20,6 +21,7 @@
 		A21FD22E1A2427BF003EAD19 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FD22D1A2427BF003EAD19 /* BaseViewController.m */; };
 		A21FD2321A2427E3003EAD19 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FD2301A2427E3003EAD19 /* MainViewController.m */; };
 		A21FD2341A2427EF003EAD19 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21FD2311A2427E3003EAD19 /* MainViewController.xib */; };
+		A24481B31A26E39D00749A08 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24481B21A26E39D00749A08 /* Reveal.framework */; };
 		A24C64361A256AC80072B1D7 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = A24C64351A256AC80072B1D7 /* Util.m */; };
 		A24C643B1A256EA70072B1D7 /* BaseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A24C64391A256EA70072B1D7 /* BaseDetailViewController.m */; };
 		A24C643C1A256EA70072B1D7 /* BaseDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A24C643A1A256EA70072B1D7 /* BaseDetailViewController.xib */; };
@@ -33,6 +35,25 @@
 		A24C645B1A25753B0072B1D7 /* BuyDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A24C64591A25753B0072B1D7 /* BuyDetailViewController.xib */; };
 		A24C645F1A2575510072B1D7 /* BuyMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A24C645D1A2575510072B1D7 /* BuyMasterViewController.m */; };
 		A24C64601A2575510072B1D7 /* BuyMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A24C645E1A2575510072B1D7 /* BuyMasterViewController.xib */; };
+		A28D6C1D1A2BF08F00F2342A /* Jastor.m in Sources */ = {isa = PBXBuildFile; fileRef = A28D6C1A1A2BF08F00F2342A /* Jastor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A28D6C1E1A2BF08F00F2342A /* JastorRuntimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A28D6C1C1A2BF08F00F2342A /* JastorRuntimeHelper.m */; };
+		A28D6C211A2BF0B100F2342A /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A28D6C201A2BF0B100F2342A /* BaseModel.m */; };
+		A28D6C271A2BF12300F2342A /* Sale.m in Sources */ = {isa = PBXBuildFile; fileRef = A28D6C261A2BF12300F2342A /* Sale.m */; };
+		A28D6C291A2BF67300F2342A /* saleList.json in Resources */ = {isa = PBXBuildFile; fileRef = A28D6C281A2BF67300F2342A /* saleList.json */; };
+		A28D6C331A2BF90800F2342A /* GoodDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A28D6C311A2BF90800F2342A /* GoodDetailViewController.m */; };
+		A28D6C341A2BF90800F2342A /* GoodDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A28D6C321A2BF90800F2342A /* GoodDetailViewController.xib */; };
+		A28D6C381A2BF93400F2342A /* GoodMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A28D6C361A2BF93400F2342A /* GoodMasterViewController.m */; };
+		A28D6C391A2BF93400F2342A /* GoodMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A28D6C371A2BF93400F2342A /* GoodMasterViewController.xib */; };
+		A28D6C3D1A2BFB4700F2342A /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A28D6C3C1A2BFB4700F2342A /* APIManager.m */; };
+		A28D6C461A2C004400F2342A /* LightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A28D6C401A2C004400F2342A /* LightCell.m */; };
+		A28D6C471A2C004400F2342A /* LightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A28D6C411A2C004400F2342A /* LightCell.xib */; };
+		A28D6C481A2C004400F2342A /* LightDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A28D6C431A2C004400F2342A /* LightDataSource.m */; };
+		A28D6C491A2C004400F2342A /* LightDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A28D6C451A2C004400F2342A /* LightDelegate.m */; };
+		A28D6C511A2C005C00F2342A /* MGSplitCornersView.m in Sources */ = {isa = PBXBuildFile; fileRef = A28D6C4C1A2C005C00F2342A /* MGSplitCornersView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A28D6C521A2C005C00F2342A /* MGSplitDividerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A28D6C4E1A2C005C00F2342A /* MGSplitDividerView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A28D6C531A2C005C00F2342A /* MGSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A28D6C501A2C005C00F2342A /* MGSplitViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A28D6C571A2C043700F2342A /* SaleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A28D6C551A2C043700F2342A /* SaleCell.m */; };
+		A28D6C581A2C043700F2342A /* SaleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A28D6C561A2C043700F2342A /* SaleCell.xib */; };
 		A28F63591A2303B7003C2900 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A28F63581A2303B7003C2900 /* main.m */; };
 		A28F635C1A2303B7003C2900 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A28F635B1A2303B7003C2900 /* AppDelegate.m */; };
 		A28F636A1A2303B7003C2900 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A28F63691A2303B7003C2900 /* Images.xcassets */; };
@@ -40,9 +61,6 @@
 		A28F63791A2303B7003C2900 /* JKCRMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A28F63781A2303B7003C2900 /* JKCRMTests.m */; };
 		A28F63851A23048E003C2900 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A28F63831A23048E003C2900 /* RootViewController.m */; };
 		A28F63861A23048E003C2900 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A28F63841A23048E003C2900 /* RootViewController.xib */; };
-		A28F638E1A230878003C2900 /* MGSplitCornersView.m in Sources */ = {isa = PBXBuildFile; fileRef = A28F63891A230878003C2900 /* MGSplitCornersView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A28F638F1A230878003C2900 /* MGSplitDividerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A28F638B1A230878003C2900 /* MGSplitDividerView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A28F63901A230878003C2900 /* MGSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A28F638D1A230878003C2900 /* MGSplitViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A2B9B4D31A25533B00609F94 /* DOAutocompleteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B9B45D1A25533B00609F94 /* DOAutocompleteTextField.m */; };
 		A2B9B4D41A25533B00609F94 /* NSMutableArray+IMSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B9B45F1A25533B00609F94 /* NSMutableArray+IMSExtensions.m */; };
 		A2B9B4D51A25533B00609F94 /* NSMutableArray+MoveObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B9B4611A25533B00609F94 /* NSMutableArray+MoveObject.m */; };
@@ -130,6 +148,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A21B4C1F1A37FC1800ACB1EF /* SaleDetailViewController.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SaleDetailViewController.json; sourceTree = "<group>"; };
 		A21FD1671A240A82003EAD19 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		A21FD1681A240A82003EAD19 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		A21FD1691A240A82003EAD19 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
@@ -150,6 +169,7 @@
 		A21FD22F1A2427E3003EAD19 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		A21FD2301A2427E3003EAD19 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		A21FD2311A2427E3003EAD19 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		A24481B21A26E39D00749A08 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reveal.framework; path = "../../../../Applications/Reveal.app/Contents/SharedSupport/iOS-Libraries/Reveal.framework"; sourceTree = "<group>"; };
 		A24C64341A256AC80072B1D7 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
 		A24C64351A256AC80072B1D7 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
 		A24C64381A256EA70072B1D7 /* BaseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDetailViewController.h; sourceTree = "<group>"; };
@@ -170,6 +190,40 @@
 		A24C645C1A2575510072B1D7 /* BuyMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyMasterViewController.h; sourceTree = "<group>"; };
 		A24C645D1A2575510072B1D7 /* BuyMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyMasterViewController.m; sourceTree = "<group>"; };
 		A24C645E1A2575510072B1D7 /* BuyMasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuyMasterViewController.xib; sourceTree = "<group>"; };
+		A28D6C181A2BF08F00F2342A /* Jastor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Jastor-Prefix.pch"; sourceTree = "<group>"; };
+		A28D6C191A2BF08F00F2342A /* Jastor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jastor.h; sourceTree = "<group>"; };
+		A28D6C1A1A2BF08F00F2342A /* Jastor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jastor.m; sourceTree = "<group>"; };
+		A28D6C1B1A2BF08F00F2342A /* JastorRuntimeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JastorRuntimeHelper.h; sourceTree = "<group>"; };
+		A28D6C1C1A2BF08F00F2342A /* JastorRuntimeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JastorRuntimeHelper.m; sourceTree = "<group>"; };
+		A28D6C1F1A2BF0B100F2342A /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		A28D6C201A2BF0B100F2342A /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		A28D6C251A2BF12300F2342A /* Sale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sale.h; sourceTree = "<group>"; };
+		A28D6C261A2BF12300F2342A /* Sale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sale.m; sourceTree = "<group>"; };
+		A28D6C281A2BF67300F2342A /* saleList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = saleList.json; sourceTree = "<group>"; };
+		A28D6C301A2BF90800F2342A /* GoodDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodDetailViewController.h; sourceTree = "<group>"; };
+		A28D6C311A2BF90800F2342A /* GoodDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodDetailViewController.m; sourceTree = "<group>"; };
+		A28D6C321A2BF90800F2342A /* GoodDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoodDetailViewController.xib; sourceTree = "<group>"; };
+		A28D6C351A2BF93400F2342A /* GoodMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodMasterViewController.h; sourceTree = "<group>"; };
+		A28D6C361A2BF93400F2342A /* GoodMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodMasterViewController.m; sourceTree = "<group>"; };
+		A28D6C371A2BF93400F2342A /* GoodMasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoodMasterViewController.xib; sourceTree = "<group>"; };
+		A28D6C3B1A2BFB4700F2342A /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		A28D6C3C1A2BFB4700F2342A /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
+		A28D6C3F1A2C004400F2342A /* LightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightCell.h; sourceTree = "<group>"; };
+		A28D6C401A2C004400F2342A /* LightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightCell.m; sourceTree = "<group>"; };
+		A28D6C411A2C004400F2342A /* LightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LightCell.xib; sourceTree = "<group>"; };
+		A28D6C421A2C004400F2342A /* LightDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightDataSource.h; sourceTree = "<group>"; };
+		A28D6C431A2C004400F2342A /* LightDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightDataSource.m; sourceTree = "<group>"; };
+		A28D6C441A2C004400F2342A /* LightDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightDelegate.h; sourceTree = "<group>"; };
+		A28D6C451A2C004400F2342A /* LightDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightDelegate.m; sourceTree = "<group>"; };
+		A28D6C4B1A2C005C00F2342A /* MGSplitCornersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSplitCornersView.h; sourceTree = "<group>"; };
+		A28D6C4C1A2C005C00F2342A /* MGSplitCornersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSplitCornersView.m; sourceTree = "<group>"; };
+		A28D6C4D1A2C005C00F2342A /* MGSplitDividerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSplitDividerView.h; sourceTree = "<group>"; };
+		A28D6C4E1A2C005C00F2342A /* MGSplitDividerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSplitDividerView.m; sourceTree = "<group>"; };
+		A28D6C4F1A2C005C00F2342A /* MGSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSplitViewController.h; sourceTree = "<group>"; };
+		A28D6C501A2C005C00F2342A /* MGSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSplitViewController.m; sourceTree = "<group>"; };
+		A28D6C541A2C043700F2342A /* SaleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaleCell.h; sourceTree = "<group>"; };
+		A28D6C551A2C043700F2342A /* SaleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaleCell.m; sourceTree = "<group>"; };
+		A28D6C561A2C043700F2342A /* SaleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SaleCell.xib; sourceTree = "<group>"; };
 		A28F63531A2303B7003C2900 /* JKCRM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKCRM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28F63571A2303B7003C2900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A28F63581A2303B7003C2900 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -183,12 +237,6 @@
 		A28F63821A23048E003C2900 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		A28F63831A23048E003C2900 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		A28F63841A23048E003C2900 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
-		A28F63881A230878003C2900 /* MGSplitCornersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSplitCornersView.h; sourceTree = "<group>"; };
-		A28F63891A230878003C2900 /* MGSplitCornersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSplitCornersView.m; sourceTree = "<group>"; };
-		A28F638A1A230878003C2900 /* MGSplitDividerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSplitDividerView.h; sourceTree = "<group>"; };
-		A28F638B1A230878003C2900 /* MGSplitDividerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSplitDividerView.m; sourceTree = "<group>"; };
-		A28F638C1A230878003C2900 /* MGSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSplitViewController.h; sourceTree = "<group>"; };
-		A28F638D1A230878003C2900 /* MGSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSplitViewController.m; sourceTree = "<group>"; };
 		A2B9B45A1A25522900609F94 /* JKCRM-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JKCRM-Prefix.pch"; sourceTree = "<group>"; };
 		A2B9B45C1A25533B00609F94 /* DOAutocompleteTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOAutocompleteTextField.h; sourceTree = "<group>"; };
 		A2B9B45D1A25533B00609F94 /* DOAutocompleteTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOAutocompleteTextField.m; sourceTree = "<group>"; };
@@ -348,6 +396,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A24481B31A26E39D00749A08 /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +413,9 @@
 		A21FD17D1A24119D003EAD19 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				A28F63871A230878003C2900 /* MGSplitViewController */,
+				A28D6C4A1A2C005C00F2342A /* MGSplitViewController */,
+				A28D6C3E1A2C004400F2342A /* LightTableView */,
+				A28D6C171A2BF08F00F2342A /* Jastor */,
 				A2B9B45B1A25533B00609F94 /* quickdialog */,
 				A21FD17E1A24119D003EAD19 /* NSDictionary+Json.h */,
 				A21FD17F1A24119D003EAD19 /* NSDictionary+Json.m */,
@@ -398,6 +449,7 @@
 			isa = PBXGroup;
 			children = (
 				A2BB7C931A269F9000A792C8 /* Sale */,
+				A28D6C2A1A2BF84C00F2342A /* Good */,
 				A24C64561A2575290072B1D7 /* Buy */,
 				A24C64371A256C8F0072B1D7 /* Customer */,
 				A21FD22B1A2427A1003EAD19 /* Common */,
@@ -457,9 +509,83 @@
 			path = Buy;
 			sourceTree = "<group>";
 		};
+		A28D6C161A2BEFBA00F2342A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A28D6C251A2BF12300F2342A /* Sale.h */,
+				A28D6C261A2BF12300F2342A /* Sale.m */,
+				A28D6C1F1A2BF0B100F2342A /* BaseModel.h */,
+				A28D6C201A2BF0B100F2342A /* BaseModel.m */,
+				A28D6C281A2BF67300F2342A /* saleList.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A28D6C171A2BF08F00F2342A /* Jastor */ = {
+			isa = PBXGroup;
+			children = (
+				A28D6C181A2BF08F00F2342A /* Jastor-Prefix.pch */,
+				A28D6C191A2BF08F00F2342A /* Jastor.h */,
+				A28D6C1A1A2BF08F00F2342A /* Jastor.m */,
+				A28D6C1B1A2BF08F00F2342A /* JastorRuntimeHelper.h */,
+				A28D6C1C1A2BF08F00F2342A /* JastorRuntimeHelper.m */,
+			);
+			path = Jastor;
+			sourceTree = "<group>";
+		};
+		A28D6C2A1A2BF84C00F2342A /* Good */ = {
+			isa = PBXGroup;
+			children = (
+				A28D6C351A2BF93400F2342A /* GoodMasterViewController.h */,
+				A28D6C361A2BF93400F2342A /* GoodMasterViewController.m */,
+				A28D6C371A2BF93400F2342A /* GoodMasterViewController.xib */,
+				A28D6C301A2BF90800F2342A /* GoodDetailViewController.h */,
+				A28D6C311A2BF90800F2342A /* GoodDetailViewController.m */,
+				A28D6C321A2BF90800F2342A /* GoodDetailViewController.xib */,
+			);
+			path = Good;
+			sourceTree = "<group>";
+		};
+		A28D6C3A1A2BFB3000F2342A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A28D6C3B1A2BFB4700F2342A /* APIManager.h */,
+				A28D6C3C1A2BFB4700F2342A /* APIManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		A28D6C3E1A2C004400F2342A /* LightTableView */ = {
+			isa = PBXGroup;
+			children = (
+				A28D6C3F1A2C004400F2342A /* LightCell.h */,
+				A28D6C401A2C004400F2342A /* LightCell.m */,
+				A28D6C411A2C004400F2342A /* LightCell.xib */,
+				A28D6C421A2C004400F2342A /* LightDataSource.h */,
+				A28D6C431A2C004400F2342A /* LightDataSource.m */,
+				A28D6C441A2C004400F2342A /* LightDelegate.h */,
+				A28D6C451A2C004400F2342A /* LightDelegate.m */,
+			);
+			path = LightTableView;
+			sourceTree = "<group>";
+		};
+		A28D6C4A1A2C005C00F2342A /* MGSplitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A28D6C4B1A2C005C00F2342A /* MGSplitCornersView.h */,
+				A28D6C4C1A2C005C00F2342A /* MGSplitCornersView.m */,
+				A28D6C4D1A2C005C00F2342A /* MGSplitDividerView.h */,
+				A28D6C4E1A2C005C00F2342A /* MGSplitDividerView.m */,
+				A28D6C4F1A2C005C00F2342A /* MGSplitViewController.h */,
+				A28D6C501A2C005C00F2342A /* MGSplitViewController.m */,
+			);
+			path = MGSplitViewController;
+			sourceTree = "<group>";
+		};
 		A28F634A1A2303B7003C2900 = {
 			isa = PBXGroup;
 			children = (
+				A24481B21A26E39D00749A08 /* Reveal.framework */,
 				A28F63551A2303B7003C2900 /* JKCRM */,
 				A28F63751A2303B7003C2900 /* JKCRMTests */,
 				A28F63541A2303B7003C2900 /* Products */,
@@ -478,6 +604,8 @@
 		A28F63551A2303B7003C2900 /* JKCRM */ = {
 			isa = PBXGroup;
 			children = (
+				A28D6C3A1A2BFB3000F2342A /* Manager */,
+				A28D6C161A2BEFBA00F2342A /* Model */,
 				A21FD2291A242778003EAD19 /* Views */,
 				A21FD1841A2411D0003EAD19 /* Resource */,
 				A21FD17D1A24119D003EAD19 /* Vendor */,
@@ -526,20 +654,6 @@
 				A28F63771A2303B7003C2900 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A28F63871A230878003C2900 /* MGSplitViewController */ = {
-			isa = PBXGroup;
-			children = (
-				A28F63881A230878003C2900 /* MGSplitCornersView.h */,
-				A28F63891A230878003C2900 /* MGSplitCornersView.m */,
-				A28F638A1A230878003C2900 /* MGSplitDividerView.h */,
-				A28F638B1A230878003C2900 /* MGSplitDividerView.m */,
-				A28F638C1A230878003C2900 /* MGSplitViewController.h */,
-				A28F638D1A230878003C2900 /* MGSplitViewController.m */,
-			);
-			name = MGSplitViewController;
-			path = ../MGSplitViewController;
 			sourceTree = "<group>";
 		};
 		A2B9B45B1A25533B00609F94 /* quickdialog */ = {
@@ -708,9 +822,13 @@
 				A2BB7C941A269FA000A792C8 /* SaleMasterViewController.h */,
 				A2BB7C951A269FA000A792C8 /* SaleMasterViewController.m */,
 				A2BB7C961A269FA000A792C8 /* SaleMasterViewController.xib */,
+				A28D6C541A2C043700F2342A /* SaleCell.h */,
+				A28D6C551A2C043700F2342A /* SaleCell.m */,
+				A28D6C561A2C043700F2342A /* SaleCell.xib */,
 				A2BB7C991A269FB500A792C8 /* SaleDetailViewController.h */,
 				A2BB7C9A1A269FB500A792C8 /* SaleDetailViewController.m */,
 				A2BB7C9B1A269FB500A792C8 /* SaleDetailViewController.xib */,
+				A21B4C1F1A37FC1800ACB1EF /* SaleDetailViewController.json */,
 			);
 			path = Sale;
 			sourceTree = "<group>";
@@ -800,15 +918,21 @@
 				A21FD1F81A241C51003EAD19 /* menu_icon_main_press@2x.png in Resources */,
 				A21FD1F61A241C51003EAD19 /* menu_icon_main@2x.png in Resources */,
 				A2BB7C9D1A269FB500A792C8 /* SaleDetailViewController.xib in Resources */,
+				A28D6C391A2BF93400F2342A /* GoodMasterViewController.xib in Resources */,
 				A21FD1861A2411D0003EAD19 /* MainMenu.json in Resources */,
+				A28D6C471A2C004400F2342A /* LightCell.xib in Resources */,
 				A2BB7C981A269FA000A792C8 /* SaleMasterViewController.xib in Resources */,
 				A28F636D1A2303B7003C2900 /* LaunchScreen.xib in Resources */,
+				A28D6C291A2BF67300F2342A /* saleList.json in Resources */,
 				A21FD1751A24109F003EAD19 /* MasterViewController.xib in Resources */,
 				A24C64601A2575510072B1D7 /* BuyMasterViewController.xib in Resources */,
 				A21FD2341A2427EF003EAD19 /* MainViewController.xib in Resources */,
 				A24C643C1A256EA70072B1D7 /* BaseDetailViewController.xib in Resources */,
 				A28F636A1A2303B7003C2900 /* Images.xcassets in Resources */,
+				A28D6C341A2BF90800F2342A /* GoodDetailViewController.xib in Resources */,
 				A24C644B1A256FA90072B1D7 /* CustomerMasterViewController.xib in Resources */,
+				A21B4C201A37FC1800ACB1EF /* SaleDetailViewController.json in Resources */,
+				A28D6C581A2C043700F2342A /* SaleCell.xib in Resources */,
 				A24C64551A256FD50072B1D7 /* CustomerDetailViewController.xib in Resources */,
 				A28F63861A23048E003C2900 /* RootViewController.xib in Resources */,
 				A24C64461A256F1F0072B1D7 /* BaseMasterViewController.xib in Resources */,
@@ -834,7 +958,6 @@
 				A21FD1821A24119D003EAD19 /* NSDictionary+Json.m in Sources */,
 				A2B9B50B1A25533B00609F94 /* QuickDialogTableView.m in Sources */,
 				A28F635C1A2303B7003C2900 /* AppDelegate.m in Sources */,
-				A28F63901A230878003C2900 /* MGSplitViewController.m in Sources */,
 				A2B9B52D1A25534100609F94 /* QWebElement.m in Sources */,
 				A2B9B5051A25533B00609F94 /* QuickDialogController+Helpers.m in Sources */,
 				A2B9B52F1A25534100609F94 /* UIColor+ColorUtilities.m in Sources */,
@@ -842,10 +965,12 @@
 				A21FD16A1A240A82003EAD19 /* DetailViewController.m in Sources */,
 				A2B9B4EF1A25533B00609F94 /* QImageElement.m in Sources */,
 				A2B9B4EC1A25533B00609F94 /* QFlatAppearance.m in Sources */,
+				A28D6C331A2BF90800F2342A /* GoodDetailViewController.m in Sources */,
 				A24C64541A256FD50072B1D7 /* CustomerDetailViewController.m in Sources */,
 				A21FD1891A241326003EAD19 /* NSString+NSArray.m in Sources */,
 				A2B9B4EE1A25533B00609F94 /* QFloatTableViewCell.m in Sources */,
 				A2B9B4DC1A25533B00609F94 /* QBindingEvaluator.m in Sources */,
+				A28D6C461A2C004400F2342A /* LightCell.m in Sources */,
 				A24C645F1A2575510072B1D7 /* BuyMasterViewController.m in Sources */,
 				A2B9B4ED1A25533B00609F94 /* QFloatElement.m in Sources */,
 				A2B9B4FC1A25533B00609F94 /* QSection.m in Sources */,
@@ -853,19 +978,24 @@
 				A2B9B4FB1A25533B00609F94 /* QRootElement.m in Sources */,
 				A2B9B5291A25534100609F94 /* QMapViewController.m in Sources */,
 				A2B9B4E21A25533B00609F94 /* QDateTimeElement.m in Sources */,
+				A28D6C531A2C005C00F2342A /* MGSplitViewController.m in Sources */,
 				A2B9B4FE1A25533B00609F94 /* QSelectItemElement.m in Sources */,
 				A2B9B52C1A25534100609F94 /* QPickerTableViewCell.m in Sources */,
+				A28D6C1D1A2BF08F00F2342A /* Jastor.m in Sources */,
 				A2B9B4F11A25533B00609F94 /* QLabelElement.m in Sources */,
 				A2B9B4F91A25533B00609F94 /* QRootBuilder.m in Sources */,
 				A2B9B50C1A25533B00609F94 /* QuickDialogWebController.m in Sources */,
 				A28F63591A2303B7003C2900 /* main.m in Sources */,
-				A28F638F1A230878003C2900 /* MGSplitDividerView.m in Sources */,
+				A28D6C1E1A2BF08F00F2342A /* JastorRuntimeHelper.m in Sources */,
 				A2B9B4E11A25533B00609F94 /* QDateEntryTableViewCell.m in Sources */,
 				A2B9B5091A25533B00609F94 /* QuickDialogDataSource.m in Sources */,
+				A28D6C481A2C004400F2342A /* LightDataSource.m in Sources */,
 				A2B9B4F01A25533B00609F94 /* QImageTableViewCell.m in Sources */,
 				A2B9B4E91A25533B00609F94 /* QEmptyListElement.m in Sources */,
 				A2B9B4E61A25533B00609F94 /* QDynamicDataSection.m in Sources */,
+				A28D6C271A2BF12300F2342A /* Sale.m in Sources */,
 				A2B9B4D41A25533B00609F94 /* NSMutableArray+IMSExtensions.m in Sources */,
+				A28D6C491A2C004400F2342A /* LightDelegate.m in Sources */,
 				A2B9B4E01A25533B00609F94 /* QCountdownElement.m in Sources */,
 				A2B9B5031A25533B00609F94 /* QTextField.m in Sources */,
 				A2BB7C9C1A269FB500A792C8 /* SaleDetailViewController.m in Sources */,
@@ -887,9 +1017,11 @@
 				A2B9B4E81A25533B00609F94 /* QElement.m in Sources */,
 				A2B9B5021A25533B00609F94 /* QTextElement.m in Sources */,
 				A2B9B5331A2553D000609F94 /* QDateInlineTableViewCell.m in Sources */,
+				A28D6C521A2C005C00F2342A /* MGSplitDividerView.m in Sources */,
 				A2B9B4D31A25533B00609F94 /* DOAutocompleteTextField.m in Sources */,
 				A2B9B4F61A25533B00609F94 /* QRadioElement.m in Sources */,
 				A2B9B4E71A25533B00609F94 /* QElement+Appearance.m in Sources */,
+				A28D6C3D1A2BFB4700F2342A /* APIManager.m in Sources */,
 				A2B9B5261A25534100609F94 /* QMailElement.m in Sources */,
 				A2B9B5281A25534100609F94 /* QMapElement.m in Sources */,
 				A2B9B4EB1A25533B00609F94 /* QEntryTableViewCell.m in Sources */,
@@ -897,8 +1029,9 @@
 				A2B9B4E31A25533B00609F94 /* QDateTimeInlineElement.m in Sources */,
 				A2B9B52E1A25534100609F94 /* QWebViewController.m in Sources */,
 				A2B9B4DD1A25533B00609F94 /* QBooleanElement.m in Sources */,
+				A28D6C511A2C005C00F2342A /* MGSplitCornersView.m in Sources */,
+				A28D6C571A2C043700F2342A /* SaleCell.m in Sources */,
 				A24C645A1A25753B0072B1D7 /* BuyDetailViewController.m in Sources */,
-				A28F638E1A230878003C2900 /* MGSplitCornersView.m in Sources */,
 				A2B9B4D61A25533B00609F94 /* QAppearance.m in Sources */,
 				A2B9B4F41A25533B00609F94 /* QMultilineTextViewController.m in Sources */,
 				A2B9B4DA1A25533B00609F94 /* QBadgeLabel.m in Sources */,
@@ -910,6 +1043,7 @@
 				A21FD2321A2427E3003EAD19 /* MainViewController.m in Sources */,
 				A2B9B5001A25533B00609F94 /* QSortingSection.m in Sources */,
 				A21FD1741A24109F003EAD19 /* MasterViewController.m in Sources */,
+				A28D6C381A2BF93400F2342A /* GoodMasterViewController.m in Sources */,
 				A28F63851A23048E003C2900 /* RootViewController.m in Sources */,
 				A2B9B4D51A25533B00609F94 /* NSMutableArray+MoveObject.m in Sources */,
 				A2B9B4D91A25533B00609F94 /* QBadgeElement.m in Sources */,
@@ -920,6 +1054,7 @@
 				A2B9B4F21A25533B00609F94 /* QLoadingElement.m in Sources */,
 				A2B9B4D71A25533B00609F94 /* QAutoEntryElement.m in Sources */,
 				A2B9B4D81A25533B00609F94 /* QAutoEntryTableViewCell.m in Sources */,
+				A28D6C211A2BF0B100F2342A /* BaseModel.m in Sources */,
 				A2B9B4FD1A25533B00609F94 /* QSegmentedElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -35,10 +35,13 @@
             self.detailNavigationController.view.frame = CGRectMake(0, 0, 662, 768);
         }
         [self.detailNavigationController pushViewController:self.detailItem animated:animate];
-
-        [self.detailNavigationController.view setNeedsLayout];
-        [self.detailNavigationController.view setNeedsDisplay];
     }
+    if (self.detailItem == nil) {
+        [self.detailNavigationController popToRootViewControllerAnimated:NO];
+    }
+    
+    [self.detailNavigationController.view setNeedsLayout];
+    [self.detailNavigationController.view setNeedsDisplay];
 }
 
 - (void)viewDidLoad
@@ -56,6 +59,10 @@
     [super viewDidAppear:animated];
     self.detailNavigationController.view.autoresizingMask = UIViewAutoresizingNone;
     self.detailNavigationController.view.frame = CGRectMake(0, 0, 662, 768);
+}
+
+- (void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animate{
+    self.waitNavigation = NO;
 }
 
 - (void)didReceiveMemoryWarning {

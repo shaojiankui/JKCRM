@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "LightDataSource.h"
+#import "LightDelegate.h"
+#import "LightCell.h"
+#import "DetailViewController.h"
 @interface BaseMasterViewController : UIViewController
+@property (strong, nonatomic) DetailViewController *detailViewController;
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) LightDataSource *dataSource;
+@property (nonatomic, strong) LightDelegate *delegate;
+@property (nonatomic, strong) NSArray *dataList;
 
 @end

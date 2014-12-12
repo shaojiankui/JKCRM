@@ -1,25 +1,22 @@
 //
-//  BaseMasterViewController.m
+//  GoodDetailViewController.m
 //  JKCRM
 //
-//  Created by Jakey on 14/11/26.
+//  Created by Jakey on 14/12/1.
 //  Copyright (c) 2014年 www.skyfox.org. All rights reserved.
 //
 
-#import "BaseMasterViewController.h"
-#import "Util.h"
-@interface BaseMasterViewController ()
+#import "GoodDetailViewController.h"
+
+@interface GoodDetailViewController ()
 
 @end
 
-@implementation BaseMasterViewController
+@implementation GoodDetailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-
-    self.detailViewController = (DetailViewController*)[Util APP].rootViewController.splitViewController.detailViewController;
-
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,7 +7,8 @@
 //
 
 #import "SaleMasterViewController.h"
-
+#import "Sale.h"
+#import "SaleDetailViewController.h"
 @interface SaleMasterViewController ()
 
 @end
@@ -17,21 +18,48 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-}
+    self.dataList = [NSArray array];
+    [self buildTableView];
 
+    [self loadData];
+}
+-(void)loadData{
+    [Sale getSaleList:@{} andBlock:^(NSDictionary *collection, NSError *error) {
+        self.dataList = [collection objectForKey:@"result"];
+        [self.dataSource addDataList:self.dataList];
+         [self.tableView reloadData];
+    }];
+
+}
+-(void)buildTableView{
+    self.dataSource = [[LightDataSource alloc] initWithCellIdentifier:@"SaleCell" cellNibName:@"SaleCell" configureCellBlock:^(id cell, id item) {
+        [(LightCell*)cell configureCellData:item];
+    }];
+    
+    self.delegate = [[LightDelegate alloc]init];
+    [self.delegate didSelectRowAtIndexPath:^(id cell, NSIndexPath *indexPath) {
+        NSLog(@"%@", [NSString stringWithFormat:@"didSelectRowAtIndexPath %zd",indexPath.row]);
+        SaleDetailViewController *detail = [[SaleDetailViewController alloc]init];
+        detail.sale  = [Sale objectFromDictionary:self.dataSource.items[indexPath.row]];
+        self.detailViewController.detailItem  = detail;
+        
+    }];
+    [self.delegate didDeselectRowAtIndexPath:^(id cell, NSIndexPath *indexPath) {
+        NSLog(@"%@", [NSString stringWithFormat:@"didDeselectRowAtIndexPath %zd",indexPath.row]);
+    }];
+    [self.delegate willDisplayCell:^(id cell, NSIndexPath *indexPath) {
+        NSLog(@"%@", [NSString stringWithFormat:@"willDisplayCell %zd",indexPath.row]);
+    }];
+    [self.delegate heightForRowAtIndexPath:^CGFloat(NSIndexPath *indexPath) {
+        return 60;
+    }];
+    
+    self.tableView.dataSource = self.dataSource;
+    self.tableView.delegate = self.delegate;
+   
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end

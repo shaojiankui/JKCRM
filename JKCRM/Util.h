@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "MGSplitViewController.h"
+#import "AppDelegate.h"
 @interface Util : NSObject
 +(MGSplitViewController*)SplitViewController;
 
-
++(AppDelegate*)APP;
 @end

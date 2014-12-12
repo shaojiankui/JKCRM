@@ -7,7 +7,8 @@
 //
 
 #import "BaseDetailViewController.h"
-
+#import "Sale.h"
 @interface SaleDetailViewController : BaseDetailViewController
-
+@property (nonatomic,strong) Sale *sale;
+@property (weak, nonatomic) IBOutlet UILabel *titleLable;
 @end
