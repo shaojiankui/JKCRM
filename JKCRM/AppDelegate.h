@@ -14,6 +14,6 @@
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic)  RootViewController *rootViewController;
 @property (strong, nonatomic)  UINavigationController *navgationController;
-
++(AppDelegate*)APP;
 @end
 

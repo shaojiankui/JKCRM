@@ -1,5 +1,5 @@
 //
-//  NSString+Dictionary.h
+//  NSDictionary+Json.h
 //  vw-service
 //
 //  Created by Jakey on 14-6-13.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (Dictionary)
--(NSDictionary *) JsonToDictionary;
+@interface NSDictionary (JsonString)
+-(NSString *)jsonString;
 @end

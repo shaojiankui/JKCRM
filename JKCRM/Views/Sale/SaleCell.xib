@@ -26,13 +26,17 @@
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="llF-vp-TQw">
+                        <rect key="frame" x="219" y="18" width="22" height="22"/>
+                    </button>
                 </subviews>
             </tableViewCellContentView>
             <connections>
+                <outlet property="editButton" destination="llF-vp-TQw" id="Txe-vR-0c5"/>
                 <outlet property="mobile" destination="HNy-WS-irR" id="bHz-6S-X3N"/>
                 <outlet property="name" destination="FOF-rI-HaP" id="7Aw-3M-3Un"/>
             </connections>
-            <point key="canvasLocation" x="451" y="309.5"/>
+            <point key="canvasLocation" x="451" y="308.5"/>
         </tableViewCell>
     </objects>
 </document>

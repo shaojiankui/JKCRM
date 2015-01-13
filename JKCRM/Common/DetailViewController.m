@@ -24,13 +24,14 @@
 
 - (void)configureView
 {
-    if ([self.detailItem isKindOfClass:[UIViewController class]]) {
+    if ([self.detailItem isKindOfClass:[UIViewController class]] && !self.waitNavigation) {
         [self.detailNavigationController popToRootViewControllerAnimated:NO];
+        self.waitNavigation = YES;
+
         BOOL animate = YES;
         if ([Util SplitViewController].splitWidth==0) {
             animate = NO;
             self.detailNavigationController.view.frame = CGRectMake(0, 0, 916, 768);
-
         }else{
             self.detailNavigationController.view.frame = CGRectMake(0, 0, 662, 768);
         }
@@ -47,10 +48,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     UIViewController *empty = [[UIViewController alloc] init];
     empty.view.frame = CGRectMake(0, 0, 662, 768);
     self.detailNavigationController = [[UINavigationController alloc] initWithRootViewController:empty];
     self.detailNavigationController.navigationBarHidden = YES;
+    self.detailNavigationController.delegate = self;
     [self.view addSubview:self.detailNavigationController.view];
     self.detailNavigationController.view.autoresizingMask = UIViewAutoresizingNone;
     self.detailNavigationController.view.frame = CGRectMake(0, 0, 662, 768);

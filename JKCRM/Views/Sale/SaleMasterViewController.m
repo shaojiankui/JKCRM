@@ -9,6 +9,8 @@
 #import "SaleMasterViewController.h"
 #import "Sale.h"
 #import "SaleDetailViewController.h"
+#import "SaleCell.h"
+#import "SaleEditViewController.h"
 @interface SaleMasterViewController ()
 
 @end
@@ -20,9 +22,27 @@
     // Do any additional setup after loading the view from its nib.
     self.dataList = [NSArray array];
     [self buildTableView];
-
     [self loadData];
+    
+    __block typeof(self) weakSelf = self;
+    [self.addButton addActionHandler:^(NSInteger tag) {
+        [weakSelf presentADD];
+    }];
+
+    
 }
+-(void)presentADD{
+    SaleEditViewController *add = [[SaleEditViewController alloc]init];
+    [add didDoneActionBlock:^{
+        [self loadData];
+    }];
+    [add didCancleActionBlock:^{
+        
+    }];
+    [self presentController:add];
+}
+
+
 -(void)loadData{
     [Sale getSaleList:@{} andBlock:^(NSDictionary *collection, NSError *error) {
         self.dataList = [collection objectForKey:@"result"];
@@ -31,9 +51,22 @@
     }];
 
 }
+
 -(void)buildTableView{
-    self.dataSource = [[LightDataSource alloc] initWithCellIdentifier:@"SaleCell" cellNibName:@"SaleCell" configureCellBlock:^(id cell, id item) {
-        [(LightCell*)cell configureCellData:item];
+    self.dataSource = [[LightDataSource alloc] initWithCellIdentifier:@"SaleCell" cellNibName:@"SaleCell" configureCellBlock:^(SaleCell *cell, id item) {
+        [cell configureCellData:item];
+         [cell.editButton addActionHandler:^(NSInteger tag) {
+             SaleEditViewController *edit = [[SaleEditViewController alloc]init];
+             [self presentController:edit];
+             [edit didDoneActionBlock:^{
+                 
+             }];
+             [edit didCancleActionBlock:^{
+                
+             }];
+             
+             
+         }];
     }];
     
     self.delegate = [[LightDelegate alloc]init];
@@ -48,7 +81,7 @@
         NSLog(@"%@", [NSString stringWithFormat:@"didDeselectRowAtIndexPath %zd",indexPath.row]);
     }];
     [self.delegate willDisplayCell:^(id cell, NSIndexPath *indexPath) {
-        NSLog(@"%@", [NSString stringWithFormat:@"willDisplayCell %zd",indexPath.row]);
+        //NSLog(@"%@", [NSString stringWithFormat:@"willDisplayCell %zd",indexPath.row]);
     }];
     [self.delegate heightForRowAtIndexPath:^CGFloat(NSIndexPath *indexPath) {
         return 60;

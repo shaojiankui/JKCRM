@@ -17,7 +17,7 @@
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="484" y="312"/>
+            <point key="canvasLocation" x="376" y="302"/>
         </view>
     </objects>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

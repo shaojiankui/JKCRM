@@ -19,4 +19,8 @@
 @property (nonatomic, strong) LightDelegate *delegate;
 @property (nonatomic, strong) NSArray *dataList;
 
+@property (strong, nonatomic)  UIButton *addButton;
+
+-(void)presentController:(UIViewController*)controller;
+
 @end

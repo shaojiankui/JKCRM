@@ -7,8 +7,8 @@
 //
 
 #import "APIManager.h"
-#import "NSDictionary+Json.h"
-#import "NSString+Dictionary.h"
+#import "NSDictionary+JsonString.h"
+#import "NSString+DictionaryValue.h"
 @implementation APIManager
 + (instancetype)sharedManager {
     static dispatch_once_t onceToken;
@@ -26,10 +26,10 @@
     
     NSString *post = [NSString string];
     if (param!=nil) {
-        post= [param dictionaryToJson];
+        post= [param jsonString];
     }
     
-    NSDictionary *dic = [[self findLocalJSON:uri] JsonToDictionary];
+    NSDictionary *dic = [[self findLocalJSON:uri] dictionaryValue];
     dispatch_async(dispatch_get_main_queue(), ^(void){
         block(dic,nil);
     });

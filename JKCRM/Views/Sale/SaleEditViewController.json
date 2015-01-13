@@ -1,0 +1,135 @@
+{
+    "grouped": true,
+    "title": "销售信息",
+    "controllerName": "SaleEditViewController",
+    "sections": [
+                 {
+                 "title":"业务员信息",
+                 "bind": "",
+                 "elements": [
+                              {
+                              "type": "QLabelElement",
+                              "key": "saleID",
+                              "title": "销售ID",
+                              "bind": "value:saleID",
+                              "value": "",
+                              },
+                              {
+                              "type": "QRadioElement",
+                              "key": "saleName",
+                              "title": "业务员名称",
+                              "selected": 0,
+                              "bind": "selectedValue:radio",
+                              "items": [
+                                        "item 1",
+                                        "item 2",
+                                        "item 3"
+                                        ]
+                              }, {
+                              "type": "QEntryElement",
+                              "key": "saleMobile",
+                              "title": "业务员联系电话",
+                              "bind": "value:saleMobile",
+                              "value": ""
+                              }
+                              ]
+                 },
+                 {
+                 "title":"销售信息",
+                 "elements": [
+                              {
+                              "type": "QRadioElement",
+                              "title": "销售状态",
+                              "selected": 0,
+                              "bind": "selectedValue:radio",
+                              "items": [
+                                        "item 1",
+                                        "item 2",
+                                        "item 3"
+                                        ]
+                              },
+                              {
+                              "type": "QDateTimeInlineElement",
+                              "key": "saleTime",
+                              "title": "销售时间",
+                            
+                              },{
+                              "type":"QEntryElement",
+                              "key": "saleComment",
+                              "title": "销售留言",
+                              "bind":"text:saleComment"
+                              }
+                              ,{
+                              "type":"QLabelElement",
+                              "key": "custID",
+                              "title": "客户ID",
+                              "bind": "value:custID",
+                              "value": ""
+                              },{
+                              "type":"QLabelElement",
+                              "key": "custName",
+                              "title": "客户姓名",
+                              "bind": "value:custName",
+                              "value": ""
+                              },{
+                              "type":"QEntryElement",
+                              "key": "custMobile",
+                              "title": "客户电话",
+                              "bind": "value:custMobile",
+                              "value": ""
+                              },{
+                              "type":"QEntryElement",
+                              "key": "custOtherPhone",
+                              "title": "客户其他电话",
+                              "bind": "value:custOtherPhone",
+                              "value": ""
+                              },{
+                              "type":"QEntryElement",
+                              "key": "homePhone",
+                              "title": "家庭电话",
+                              "bind": "value:homePhone",
+                              "value": ""
+                              }
+                              ]
+                 },
+                 {
+                 "title":"商品信息",
+                 "elements": [
+                              {
+                              "type":"QLabelElement",
+                              "key": "createdTime",
+                              "title": "创建时间",
+                              "bind": "value:createdTime",
+                              "value": ""
+                              },{
+                              "type":"QEntryElement",
+                              "key": "goodName",
+                              "title": "商品名称",
+                              "bind": "value:goodName",
+                              "value": ""
+                              },
+                              {
+                              "type":"QLabelElement",
+                              "key": "goodID",
+                              "title": "商品ID",
+                              "bind": "value:goodID",
+                              "value": ""
+                              },{
+                              "type":"QLabelElement",
+                              "key": "goodModel",
+                              "title": "商品系列",
+                              "bind": "value:goodModel",
+                              "value": ""
+                              },{
+                              "type":"QLabelElement",
+                              "key": "goodBrand",
+                              "title": "商品品牌",
+                              "bind": "value:goodBrand",
+                              "value": ""
+                              }
+                              ]
+                 }
+                 ]
+    
+    
+}

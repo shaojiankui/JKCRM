@@ -237,18 +237,19 @@
 	float statusBarHeight = MAX((fullScreenRect.size.width - appFrame.size.width), (fullScreenRect.size.height - appFrame.size.height));
 	
 	// Initially assume portrait orientation.
-	float width = fullScreenRect.size.width-100-4-4; //减去菜单宽度 减去间距
+	float width = fullScreenRect.size.width;
 	float height = fullScreenRect.size.height;
 	
 	// Correct for orientation.
     if ([[[UIDevice currentDevice]systemVersion] floatValue] < 8.0 && UIInterfaceOrientationIsLandscape(theOrientation)) {
         width = height;
-        height = fullScreenRect.size.width-100-4-4;
+        height = fullScreenRect.size.width;
     }
 	
 	// Account for status bar, which always subtracts from the height (since it's always at the top of the screen).
 	height -= statusBarHeight;
-	
+    width = width- 100-4-4;  //减去菜单的宽 end by sjk
+  //  NSLog(@"splitViewSize:%@",NSStringFromCGSize(CGSizeMake(width, height)));
 	return CGSizeMake(width, height);
 }
 

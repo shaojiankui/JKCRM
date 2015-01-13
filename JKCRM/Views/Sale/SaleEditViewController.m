@@ -1,25 +1,23 @@
 //
-//  MainViewController.m
+//  SaleEditViewController.m
 //  JKCRM
 //
-//  Created by Jakey on 14/11/25.
-//  Copyright (c) 2014年 www.skyfox.org. All rights reserved.
+//  Created by Jakey on 15/1/8.
+//  Copyright (c) 2015年 www.skyfox.org. All rights reserved.
 //
 
-#import "MainViewController.h"
+#import "SaleEditViewController.h"
 
-@interface MainViewController ()
+@interface SaleEditViewController ()
 
 @end
 
-@implementation MainViewController
+@implementation SaleEditViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    [self performAfter:10 block:^{
-        NSLog(@"hahaha");
-    }];
+
 }
 
 - (void)didReceiveMemoryWarning {

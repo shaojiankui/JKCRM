@@ -8,7 +8,7 @@
 
 #import "RootViewController.h"
 #import "MenuCell.h"
-#import "NSDictionary+Json.h"
+#import "NSDictionary+JsonString.h"
 #import "NSString+NSArray.h"
 #import "MainViewController.h"
 
@@ -27,7 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    //[self.menuView registerNib:[UINib nibWithNibName:@"MenuCell" bundle:nil] forCellWithReuseIdentifier:@"MenuCell"];
+    [self.menuView registerNib:[UINib nibWithNibName:@"MenuCell" bundle:nil] forCellWithReuseIdentifier:@"MenuCell"];
     //fix collection 20px self.menuView.contentInset
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.splitViewController = [[MGSplitViewController alloc] init];
@@ -43,7 +43,7 @@
 
     
     [self.view addSubview:self.splitViewController.view];
-    self.splitViewController.view.frame = CGRectMake(104, 20, 916, 768);
+    self.splitViewController.view.frame = CGRectMake(104, 20, 916, 768-20);
     NSLog(@"self.splitViewController.view.frame%@",NSStringFromCGRect(self.splitViewController.view.frame));
     [self loadData];
 }
@@ -78,18 +78,27 @@
 }
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    [self.menuView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"MenuCell"];
-    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"MenuCell" forIndexPath:indexPath];
+    //[self.menuView registerClass:[MenuCell class] forCellWithReuseIdentifier:@"MenuCell"];
+    MenuCell *cell = (MenuCell*)[collectionView dequeueReusableCellWithReuseIdentifier:@"MenuCell" forIndexPath:indexPath];
     cell.backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[_menuList[indexPath.row]objectForKey:@"icon"][0]]];
     cell.selectedBackgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[_menuList[indexPath.row]objectForKey:@"icon"][1]]];
+    cell.name.text = [_menuList[indexPath.row]objectForKey:@"name"];
     return cell;
 }
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
+    MenuCell *cell = (MenuCell*)[collectionView cellForItemAtIndexPath:indexPath];
+    cell.name.textColor = [UIColor whiteColor];
     [self didSelectMenuItem:[[_menuList[indexPath.row]objectForKey:@"action"] integerValue]];
+    
 }
-
+-(void)collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    MenuCell *cell = (MenuCell*)[collectionView cellForItemAtIndexPath:indexPath];
+    cell.name.textColor = [UIColor blackColor];
+    
+}
 -(void)didSelectMenuItem:(NSUInteger)index{
     self.splitViewController.splitPosition = 250;
     self.splitViewController.splitWidth = 4;

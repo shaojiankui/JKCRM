@@ -8,8 +8,8 @@
 
 #import "Jastor.h"
 #import "APIManager.h"
-#import "NSDictionary+Json.h"
-#import "NSString+Dictionary.h"
+#import "NSDictionary+JsonString.h"
+#import "NSString+DictionaryValue.h"
 #import "NSString+NSArray.h"
 @interface BaseModel : Jastor
 

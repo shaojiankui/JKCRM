@@ -9,5 +9,4 @@
 #import "BaseMasterViewController.h"
 
 @interface SaleMasterViewController : BaseMasterViewController
-
 @end

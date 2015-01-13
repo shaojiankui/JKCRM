@@ -33,11 +33,6 @@
                 <view contentMode="scaleToFill" id="g0h-jY-2Bc">
                     <rect key="frame" x="137" y="104" width="363" height="315"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <userGuides>
-                        <userLayoutGuide location="151" affinity="minX"/>
-                        <userLayoutGuide location="161" affinity="minY"/>
-                        <userLayoutGuide location="128" affinity="minY"/>
-                    </userGuides>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="234234234" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HuA-3j-7Ez">
                             <rect key="frame" x="109" y="161" width="86" height="21"/>

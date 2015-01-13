@@ -7,22 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A20596E51A5E3F7C00868E57 /* SaleEditViewController.json in Resources */ = {isa = PBXBuildFile; fileRef = A20596E41A5E3F7C00868E57 /* SaleEditViewController.json */; };
+		A20596E91A5E4C8900868E57 /* SaleEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20596E71A5E4C8900868E57 /* SaleEditViewController.m */; };
+		A20596EA1A5E4C8900868E57 /* SaleEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A20596E81A5E4C8900868E57 /* SaleEditViewController.xib */; };
+		A2089A431A5F5BA70002BBAD /* NSObject+GCD.m in Sources */ = {isa = PBXBuildFile; fileRef = A2089A421A5F5BA70002BBAD /* NSObject+GCD.m */; };
 		A21B4C201A37FC1800ACB1EF /* SaleDetailViewController.json in Resources */ = {isa = PBXBuildFile; fileRef = A21B4C1F1A37FC1800ACB1EF /* SaleDetailViewController.json */; };
-		A21FD16A1A240A82003EAD19 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FD1681A240A82003EAD19 /* DetailViewController.m */; };
-		A21FD16B1A240A82003EAD19 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21FD1691A240A82003EAD19 /* DetailViewController.xib */; };
-		A21FD1741A24109F003EAD19 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FD1721A24109F003EAD19 /* MasterViewController.m */; };
-		A21FD1751A24109F003EAD19 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21FD1731A24109F003EAD19 /* MasterViewController.xib */; };
-		A21FD1821A24119D003EAD19 /* NSDictionary+Json.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FD17F1A24119D003EAD19 /* NSDictionary+Json.m */; };
-		A21FD1831A24119D003EAD19 /* NSString+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FD1811A24119D003EAD19 /* NSString+Dictionary.m */; };
 		A21FD1861A2411D0003EAD19 /* MainMenu.json in Resources */ = {isa = PBXBuildFile; fileRef = A21FD1851A2411D0003EAD19 /* MainMenu.json */; };
-		A21FD1891A241326003EAD19 /* NSString+NSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FD1881A241326003EAD19 /* NSString+NSArray.m */; };
 		A21FD1F61A241C51003EAD19 /* menu_icon_main@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A21FD1A81A241C51003EAD19 /* menu_icon_main@2x.png */; };
 		A21FD1F81A241C51003EAD19 /* menu_icon_main_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A21FD1AA1A241C51003EAD19 /* menu_icon_main_press@2x.png */; };
 		A21FD22E1A2427BF003EAD19 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FD22D1A2427BF003EAD19 /* BaseViewController.m */; };
 		A21FD2321A2427E3003EAD19 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FD2301A2427E3003EAD19 /* MainViewController.m */; };
 		A21FD2341A2427EF003EAD19 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21FD2311A2427E3003EAD19 /* MainViewController.xib */; };
 		A24481B31A26E39D00749A08 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24481B21A26E39D00749A08 /* Reveal.framework */; };
-		A24C64361A256AC80072B1D7 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = A24C64351A256AC80072B1D7 /* Util.m */; };
+		A24BEBF01A5CE442007B0626 /* NSString+DictionaryValue.m in Sources */ = {isa = PBXBuildFile; fileRef = A24BEBEF1A5CE442007B0626 /* NSString+DictionaryValue.m */; };
+		A24BEBF31A5CE452007B0626 /* NSDictionary+JsonString.m in Sources */ = {isa = PBXBuildFile; fileRef = A24BEBF21A5CE452007B0626 /* NSDictionary+JsonString.m */; };
+		A24BEBF61A5CE484007B0626 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = A24BEBF51A5CE484007B0626 /* UIButton+Block.m */; };
+		A24BEC081A5CE564007B0626 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A24BEBFE1A5CE564007B0626 /* DetailViewController.m */; };
+		A24BEC091A5CE564007B0626 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A24BEBFF1A5CE564007B0626 /* DetailViewController.xib */; };
+		A24BEC0A1A5CE564007B0626 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A24BEC011A5CE564007B0626 /* MasterViewController.m */; };
+		A24BEC0B1A5CE564007B0626 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A24BEC021A5CE564007B0626 /* MasterViewController.xib */; };
+		A24BEC0C1A5CE564007B0626 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A24BEC041A5CE564007B0626 /* RootViewController.m */; };
+		A24BEC0D1A5CE564007B0626 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A24BEC051A5CE564007B0626 /* RootViewController.xib */; };
+		A24BEC0E1A5CE564007B0626 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = A24BEC071A5CE564007B0626 /* Util.m */; };
+		A24BEC121A5CE5CD007B0626 /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A24BEC101A5CE5CC007B0626 /* MenuCell.m */; };
+		A24BEC131A5CE5CD007B0626 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A24BEC111A5CE5CC007B0626 /* MenuCell.xib */; };
+		A24BEC161A5CE61C007B0626 /* NSString+NSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = A24BEC151A5CE61C007B0626 /* NSString+NSArray.m */; };
+		A24BEC1C1A5CE71D007B0626 /* BaseEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A24BEC1A1A5CE71D007B0626 /* BaseEditViewController.m */; };
+		A24BEC1D1A5CE71D007B0626 /* BaseEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A24BEC1B1A5CE71D007B0626 /* BaseEditViewController.xib */; };
+		A24BEC221A5CE98E007B0626 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = A24BEC1F1A5CE98E007B0626 /* UIView+Frame.m */; };
+		A24BEC231A5CE98E007B0626 /* UIView+Nib.m in Sources */ = {isa = PBXBuildFile; fileRef = A24BEC211A5CE98E007B0626 /* UIView+Nib.m */; };
+		A24BEC261A5CEEBD007B0626 /* UIViewController+Root.m in Sources */ = {isa = PBXBuildFile; fileRef = A24BEC251A5CEEBD007B0626 /* UIViewController+Root.m */; };
 		A24C643B1A256EA70072B1D7 /* BaseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A24C64391A256EA70072B1D7 /* BaseDetailViewController.m */; };
 		A24C643C1A256EA70072B1D7 /* BaseDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A24C643A1A256EA70072B1D7 /* BaseDetailViewController.xib */; };
 		A24C64451A256F1F0072B1D7 /* BaseMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A24C64431A256F1F0072B1D7 /* BaseMasterViewController.m */; };
@@ -59,8 +73,6 @@
 		A28F636A1A2303B7003C2900 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A28F63691A2303B7003C2900 /* Images.xcassets */; };
 		A28F636D1A2303B7003C2900 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A28F636B1A2303B7003C2900 /* LaunchScreen.xib */; };
 		A28F63791A2303B7003C2900 /* JKCRMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A28F63781A2303B7003C2900 /* JKCRMTests.m */; };
-		A28F63851A23048E003C2900 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A28F63831A23048E003C2900 /* RootViewController.m */; };
-		A28F63861A23048E003C2900 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A28F63841A23048E003C2900 /* RootViewController.xib */; };
 		A2B9B4D31A25533B00609F94 /* DOAutocompleteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B9B45D1A25533B00609F94 /* DOAutocompleteTextField.m */; };
 		A2B9B4D41A25533B00609F94 /* NSMutableArray+IMSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B9B45F1A25533B00609F94 /* NSMutableArray+IMSExtensions.m */; };
 		A2B9B4D51A25533B00609F94 /* NSMutableArray+MoveObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B9B4611A25533B00609F94 /* NSMutableArray+MoveObject.m */; };
@@ -148,20 +160,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A20596E41A5E3F7C00868E57 /* SaleEditViewController.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SaleEditViewController.json; sourceTree = "<group>"; };
+		A20596E61A5E4C8900868E57 /* SaleEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaleEditViewController.h; sourceTree = "<group>"; };
+		A20596E71A5E4C8900868E57 /* SaleEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaleEditViewController.m; sourceTree = "<group>"; };
+		A20596E81A5E4C8900868E57 /* SaleEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SaleEditViewController.xib; sourceTree = "<group>"; };
+		A2089A411A5F5BA70002BBAD /* NSObject+GCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GCD.h"; sourceTree = "<group>"; };
+		A2089A421A5F5BA70002BBAD /* NSObject+GCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GCD.m"; sourceTree = "<group>"; };
 		A21B4C1F1A37FC1800ACB1EF /* SaleDetailViewController.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SaleDetailViewController.json; sourceTree = "<group>"; };
-		A21FD1671A240A82003EAD19 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		A21FD1681A240A82003EAD19 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		A21FD1691A240A82003EAD19 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
-		A21FD1711A24109F003EAD19 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		A21FD1721A24109F003EAD19 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		A21FD1731A24109F003EAD19 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
-		A21FD17E1A24119D003EAD19 /* NSDictionary+Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Json.h"; sourceTree = "<group>"; };
-		A21FD17F1A24119D003EAD19 /* NSDictionary+Json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Json.m"; sourceTree = "<group>"; };
-		A21FD1801A24119D003EAD19 /* NSString+Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Dictionary.h"; sourceTree = "<group>"; };
-		A21FD1811A24119D003EAD19 /* NSString+Dictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Dictionary.m"; sourceTree = "<group>"; };
 		A21FD1851A2411D0003EAD19 /* MainMenu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainMenu.json; sourceTree = "<group>"; };
-		A21FD1871A241326003EAD19 /* NSString+NSArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSArray.h"; sourceTree = "<group>"; };
-		A21FD1881A241326003EAD19 /* NSString+NSArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSArray.m"; sourceTree = "<group>"; };
 		A21FD1A81A241C51003EAD19 /* menu_icon_main@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_icon_main@2x.png"; sourceTree = "<group>"; };
 		A21FD1AA1A241C51003EAD19 /* menu_icon_main_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_icon_main_press@2x.png"; sourceTree = "<group>"; };
 		A21FD22C1A2427BF003EAD19 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -170,8 +176,37 @@
 		A21FD2301A2427E3003EAD19 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		A21FD2311A2427E3003EAD19 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		A24481B21A26E39D00749A08 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reveal.framework; path = "../../../../Applications/Reveal.app/Contents/SharedSupport/iOS-Libraries/Reveal.framework"; sourceTree = "<group>"; };
-		A24C64341A256AC80072B1D7 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
-		A24C64351A256AC80072B1D7 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		A24BEBEE1A5CE442007B0626 /* NSString+DictionaryValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DictionaryValue.h"; sourceTree = "<group>"; };
+		A24BEBEF1A5CE442007B0626 /* NSString+DictionaryValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DictionaryValue.m"; sourceTree = "<group>"; };
+		A24BEBF11A5CE452007B0626 /* NSDictionary+JsonString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JsonString.h"; sourceTree = "<group>"; };
+		A24BEBF21A5CE452007B0626 /* NSDictionary+JsonString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JsonString.m"; sourceTree = "<group>"; };
+		A24BEBF41A5CE484007B0626 /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		A24BEBF51A5CE484007B0626 /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
+		A24BEBFD1A5CE564007B0626 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A24BEBFE1A5CE564007B0626 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A24BEBFF1A5CE564007B0626 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		A24BEC001A5CE564007B0626 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A24BEC011A5CE564007B0626 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A24BEC021A5CE564007B0626 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		A24BEC031A5CE564007B0626 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A24BEC041A5CE564007B0626 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A24BEC051A5CE564007B0626 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		A24BEC061A5CE564007B0626 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		A24BEC071A5CE564007B0626 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		A24BEC0F1A5CE5CC007B0626 /* MenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCell.h; sourceTree = "<group>"; };
+		A24BEC101A5CE5CC007B0626 /* MenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCell.m; sourceTree = "<group>"; };
+		A24BEC111A5CE5CC007B0626 /* MenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		A24BEC141A5CE61C007B0626 /* NSString+NSArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSArray.h"; sourceTree = "<group>"; };
+		A24BEC151A5CE61C007B0626 /* NSString+NSArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSArray.m"; sourceTree = "<group>"; };
+		A24BEC191A5CE71D007B0626 /* BaseEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseEditViewController.h; sourceTree = "<group>"; };
+		A24BEC1A1A5CE71D007B0626 /* BaseEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseEditViewController.m; sourceTree = "<group>"; };
+		A24BEC1B1A5CE71D007B0626 /* BaseEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseEditViewController.xib; sourceTree = "<group>"; };
+		A24BEC1E1A5CE98E007B0626 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		A24BEC1F1A5CE98E007B0626 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		A24BEC201A5CE98E007B0626 /* UIView+Nib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Nib.h"; sourceTree = "<group>"; };
+		A24BEC211A5CE98E007B0626 /* UIView+Nib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Nib.m"; sourceTree = "<group>"; };
+		A24BEC241A5CEEBD007B0626 /* UIViewController+Root.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Root.h"; sourceTree = "<group>"; };
+		A24BEC251A5CEEBD007B0626 /* UIViewController+Root.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Root.m"; sourceTree = "<group>"; };
 		A24C64381A256EA70072B1D7 /* BaseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDetailViewController.h; sourceTree = "<group>"; };
 		A24C64391A256EA70072B1D7 /* BaseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDetailViewController.m; sourceTree = "<group>"; };
 		A24C643A1A256EA70072B1D7 /* BaseDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseDetailViewController.xib; sourceTree = "<group>"; };
@@ -234,9 +269,6 @@
 		A28F63721A2303B7003C2900 /* JKCRMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKCRMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28F63771A2303B7003C2900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A28F63781A2303B7003C2900 /* JKCRMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKCRMTests.m; sourceTree = "<group>"; };
-		A28F63821A23048E003C2900 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		A28F63831A23048E003C2900 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		A28F63841A23048E003C2900 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		A2B9B45A1A25522900609F94 /* JKCRM-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JKCRM-Prefix.pch"; sourceTree = "<group>"; };
 		A2B9B45C1A25533B00609F94 /* DOAutocompleteTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOAutocompleteTextField.h; sourceTree = "<group>"; };
 		A2B9B45D1A25533B00609F94 /* DOAutocompleteTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOAutocompleteTextField.m; sourceTree = "<group>"; };
@@ -417,12 +449,6 @@
 				A28D6C3E1A2C004400F2342A /* LightTableView */,
 				A28D6C171A2BF08F00F2342A /* Jastor */,
 				A2B9B45B1A25533B00609F94 /* quickdialog */,
-				A21FD17E1A24119D003EAD19 /* NSDictionary+Json.h */,
-				A21FD17F1A24119D003EAD19 /* NSDictionary+Json.m */,
-				A21FD1801A24119D003EAD19 /* NSString+Dictionary.h */,
-				A21FD1811A24119D003EAD19 /* NSString+Dictionary.m */,
-				A21FD1871A241326003EAD19 /* NSString+NSArray.h */,
-				A21FD1881A241326003EAD19 /* NSString+NSArray.m */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -479,6 +505,53 @@
 				A24C64421A256F1F0072B1D7 /* BaseMasterViewController.h */,
 				A24C64431A256F1F0072B1D7 /* BaseMasterViewController.m */,
 				A24C64441A256F1F0072B1D7 /* BaseMasterViewController.xib */,
+				A24BEC191A5CE71D007B0626 /* BaseEditViewController.h */,
+				A24BEC1A1A5CE71D007B0626 /* BaseEditViewController.m */,
+				A24BEC1B1A5CE71D007B0626 /* BaseEditViewController.xib */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A24BEBED1A5CE3F5007B0626 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A2089A411A5F5BA70002BBAD /* NSObject+GCD.h */,
+				A2089A421A5F5BA70002BBAD /* NSObject+GCD.m */,
+				A24BEC1E1A5CE98E007B0626 /* UIView+Frame.h */,
+				A24BEC1F1A5CE98E007B0626 /* UIView+Frame.m */,
+				A24BEC201A5CE98E007B0626 /* UIView+Nib.h */,
+				A24BEC211A5CE98E007B0626 /* UIView+Nib.m */,
+				A24BEC141A5CE61C007B0626 /* NSString+NSArray.h */,
+				A24BEC151A5CE61C007B0626 /* NSString+NSArray.m */,
+				A24BEBF41A5CE484007B0626 /* UIButton+Block.h */,
+				A24BEBF51A5CE484007B0626 /* UIButton+Block.m */,
+				A24BEBF11A5CE452007B0626 /* NSDictionary+JsonString.h */,
+				A24BEBF21A5CE452007B0626 /* NSDictionary+JsonString.m */,
+				A24BEBEE1A5CE442007B0626 /* NSString+DictionaryValue.h */,
+				A24BEBEF1A5CE442007B0626 /* NSString+DictionaryValue.m */,
+				A24BEC241A5CEEBD007B0626 /* UIViewController+Root.h */,
+				A24BEC251A5CEEBD007B0626 /* UIViewController+Root.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A24BEBFC1A5CE554007B0626 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A24BEC0F1A5CE5CC007B0626 /* MenuCell.h */,
+				A24BEC101A5CE5CC007B0626 /* MenuCell.m */,
+				A24BEC111A5CE5CC007B0626 /* MenuCell.xib */,
+				A24BEBFD1A5CE564007B0626 /* DetailViewController.h */,
+				A24BEBFE1A5CE564007B0626 /* DetailViewController.m */,
+				A24BEBFF1A5CE564007B0626 /* DetailViewController.xib */,
+				A24BEC001A5CE564007B0626 /* MasterViewController.h */,
+				A24BEC011A5CE564007B0626 /* MasterViewController.m */,
+				A24BEC021A5CE564007B0626 /* MasterViewController.xib */,
+				A24BEC031A5CE564007B0626 /* RootViewController.h */,
+				A24BEC041A5CE564007B0626 /* RootViewController.m */,
+				A24BEC051A5CE564007B0626 /* RootViewController.xib */,
+				A24BEC061A5CE564007B0626 /* Util.h */,
+				A24BEC071A5CE564007B0626 /* Util.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -607,23 +680,14 @@
 				A28D6C3A1A2BFB3000F2342A /* Manager */,
 				A28D6C161A2BEFBA00F2342A /* Model */,
 				A21FD2291A242778003EAD19 /* Views */,
-				A21FD1841A2411D0003EAD19 /* Resource */,
 				A21FD17D1A24119D003EAD19 /* Vendor */,
+				A24BEBED1A5CE3F5007B0626 /* Category */,
+				A21FD1841A2411D0003EAD19 /* Resource */,
+				A24BEBFC1A5CE554007B0626 /* Common */,
 				A28F635A1A2303B7003C2900 /* AppDelegate.h */,
 				A28F635B1A2303B7003C2900 /* AppDelegate.m */,
 				A28F63691A2303B7003C2900 /* Images.xcassets */,
 				A28F636B1A2303B7003C2900 /* LaunchScreen.xib */,
-				A28F63821A23048E003C2900 /* RootViewController.h */,
-				A28F63831A23048E003C2900 /* RootViewController.m */,
-				A28F63841A23048E003C2900 /* RootViewController.xib */,
-				A21FD1711A24109F003EAD19 /* MasterViewController.h */,
-				A21FD1721A24109F003EAD19 /* MasterViewController.m */,
-				A21FD1731A24109F003EAD19 /* MasterViewController.xib */,
-				A21FD1671A240A82003EAD19 /* DetailViewController.h */,
-				A21FD1681A240A82003EAD19 /* DetailViewController.m */,
-				A21FD1691A240A82003EAD19 /* DetailViewController.xib */,
-				A24C64341A256AC80072B1D7 /* Util.h */,
-				A24C64351A256AC80072B1D7 /* Util.m */,
 				A28F63561A2303B7003C2900 /* Supporting Files */,
 			);
 			path = JKCRM;
@@ -829,6 +893,10 @@
 				A2BB7C9A1A269FB500A792C8 /* SaleDetailViewController.m */,
 				A2BB7C9B1A269FB500A792C8 /* SaleDetailViewController.xib */,
 				A21B4C1F1A37FC1800ACB1EF /* SaleDetailViewController.json */,
+				A20596E61A5E4C8900868E57 /* SaleEditViewController.h */,
+				A20596E71A5E4C8900868E57 /* SaleEditViewController.m */,
+				A20596E81A5E4C8900868E57 /* SaleEditViewController.xib */,
+				A20596E41A5E3F7C00868E57 /* SaleEditViewController.json */,
 			);
 			path = Sale;
 			sourceTree = "<group>";
@@ -914,9 +982,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A24C645B1A25753B0072B1D7 /* BuyDetailViewController.xib in Resources */,
-				A21FD16B1A240A82003EAD19 /* DetailViewController.xib in Resources */,
 				A21FD1F81A241C51003EAD19 /* menu_icon_main_press@2x.png in Resources */,
+				A20596E51A5E3F7C00868E57 /* SaleEditViewController.json in Resources */,
 				A21FD1F61A241C51003EAD19 /* menu_icon_main@2x.png in Resources */,
+				A24BEC0D1A5CE564007B0626 /* RootViewController.xib in Resources */,
 				A2BB7C9D1A269FB500A792C8 /* SaleDetailViewController.xib in Resources */,
 				A28D6C391A2BF93400F2342A /* GoodMasterViewController.xib in Resources */,
 				A21FD1861A2411D0003EAD19 /* MainMenu.json in Resources */,
@@ -924,17 +993,20 @@
 				A2BB7C981A269FA000A792C8 /* SaleMasterViewController.xib in Resources */,
 				A28F636D1A2303B7003C2900 /* LaunchScreen.xib in Resources */,
 				A28D6C291A2BF67300F2342A /* saleList.json in Resources */,
-				A21FD1751A24109F003EAD19 /* MasterViewController.xib in Resources */,
+				A24BEC131A5CE5CD007B0626 /* MenuCell.xib in Resources */,
+				A24BEC091A5CE564007B0626 /* DetailViewController.xib in Resources */,
 				A24C64601A2575510072B1D7 /* BuyMasterViewController.xib in Resources */,
 				A21FD2341A2427EF003EAD19 /* MainViewController.xib in Resources */,
+				A24BEC0B1A5CE564007B0626 /* MasterViewController.xib in Resources */,
 				A24C643C1A256EA70072B1D7 /* BaseDetailViewController.xib in Resources */,
 				A28F636A1A2303B7003C2900 /* Images.xcassets in Resources */,
 				A28D6C341A2BF90800F2342A /* GoodDetailViewController.xib in Resources */,
+				A24BEC1D1A5CE71D007B0626 /* BaseEditViewController.xib in Resources */,
+				A20596EA1A5E4C8900868E57 /* SaleEditViewController.xib in Resources */,
 				A24C644B1A256FA90072B1D7 /* CustomerMasterViewController.xib in Resources */,
 				A21B4C201A37FC1800ACB1EF /* SaleDetailViewController.json in Resources */,
 				A28D6C581A2C043700F2342A /* SaleCell.xib in Resources */,
 				A24C64551A256FD50072B1D7 /* CustomerDetailViewController.xib in Resources */,
-				A28F63861A23048E003C2900 /* RootViewController.xib in Resources */,
 				A24C64461A256F1F0072B1D7 /* BaseMasterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -953,28 +1025,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A24C64361A256AC80072B1D7 /* Util.m in Sources */,
 				A24C64451A256F1F0072B1D7 /* BaseMasterViewController.m in Sources */,
-				A21FD1821A24119D003EAD19 /* NSDictionary+Json.m in Sources */,
 				A2B9B50B1A25533B00609F94 /* QuickDialogTableView.m in Sources */,
 				A28F635C1A2303B7003C2900 /* AppDelegate.m in Sources */,
 				A2B9B52D1A25534100609F94 /* QWebElement.m in Sources */,
 				A2B9B5051A25533B00609F94 /* QuickDialogController+Helpers.m in Sources */,
+				A24BEC261A5CEEBD007B0626 /* UIViewController+Root.m in Sources */,
 				A2B9B52F1A25534100609F94 /* UIColor+ColorUtilities.m in Sources */,
 				A2B9B4F81A25533B00609F94 /* QRadioSection.m in Sources */,
-				A21FD16A1A240A82003EAD19 /* DetailViewController.m in Sources */,
 				A2B9B4EF1A25533B00609F94 /* QImageElement.m in Sources */,
 				A2B9B4EC1A25533B00609F94 /* QFlatAppearance.m in Sources */,
 				A28D6C331A2BF90800F2342A /* GoodDetailViewController.m in Sources */,
 				A24C64541A256FD50072B1D7 /* CustomerDetailViewController.m in Sources */,
-				A21FD1891A241326003EAD19 /* NSString+NSArray.m in Sources */,
 				A2B9B4EE1A25533B00609F94 /* QFloatTableViewCell.m in Sources */,
+				A24BEC121A5CE5CD007B0626 /* MenuCell.m in Sources */,
 				A2B9B4DC1A25533B00609F94 /* QBindingEvaluator.m in Sources */,
 				A28D6C461A2C004400F2342A /* LightCell.m in Sources */,
+				A24BEC1C1A5CE71D007B0626 /* BaseEditViewController.m in Sources */,
 				A24C645F1A2575510072B1D7 /* BuyMasterViewController.m in Sources */,
 				A2B9B4ED1A25533B00609F94 /* QFloatElement.m in Sources */,
 				A2B9B4FC1A25533B00609F94 /* QSection.m in Sources */,
 				A2B9B4DE1A25533B00609F94 /* QButtonElement.m in Sources */,
+				A24BEC231A5CE98E007B0626 /* UIView+Nib.m in Sources */,
 				A2B9B4FB1A25533B00609F94 /* QRootElement.m in Sources */,
 				A2B9B5291A25534100609F94 /* QMapViewController.m in Sources */,
 				A2B9B4E21A25533B00609F94 /* QDateTimeElement.m in Sources */,
@@ -990,10 +1062,13 @@
 				A2B9B4E11A25533B00609F94 /* QDateEntryTableViewCell.m in Sources */,
 				A2B9B5091A25533B00609F94 /* QuickDialogDataSource.m in Sources */,
 				A28D6C481A2C004400F2342A /* LightDataSource.m in Sources */,
+				A24BEBF31A5CE452007B0626 /* NSDictionary+JsonString.m in Sources */,
 				A2B9B4F01A25533B00609F94 /* QImageTableViewCell.m in Sources */,
 				A2B9B4E91A25533B00609F94 /* QEmptyListElement.m in Sources */,
 				A2B9B4E61A25533B00609F94 /* QDynamicDataSection.m in Sources */,
+				A24BEC221A5CE98E007B0626 /* UIView+Frame.m in Sources */,
 				A28D6C271A2BF12300F2342A /* Sale.m in Sources */,
+				A2089A431A5F5BA70002BBAD /* NSObject+GCD.m in Sources */,
 				A2B9B4D41A25533B00609F94 /* NSMutableArray+IMSExtensions.m in Sources */,
 				A28D6C491A2C004400F2342A /* LightDelegate.m in Sources */,
 				A2B9B4E01A25533B00609F94 /* QCountdownElement.m in Sources */,
@@ -1007,6 +1082,7 @@
 				A2B9B50A1A25533B00609F94 /* QuickDialogTableDelegate.m in Sources */,
 				A2B9B5041A25533B00609F94 /* QuickDialogController+Animations.m in Sources */,
 				A2B9B4F71A25533B00609F94 /* QRadioItemElement.m in Sources */,
+				A24BEBF61A5CE484007B0626 /* UIButton+Block.m in Sources */,
 				A2B9B5071A25533B00609F94 /* QuickDialogController+Navigation.m in Sources */,
 				A2B9B5011A25533B00609F94 /* QTableViewCell.m in Sources */,
 				A24C643B1A256EA70072B1D7 /* BaseDetailViewController.m in Sources */,
@@ -1015,6 +1091,7 @@
 				A2B9B5081A25533B00609F94 /* QuickDialogController.m in Sources */,
 				A2B9B4FF1A25533B00609F94 /* QSelectSection.m in Sources */,
 				A2B9B4E81A25533B00609F94 /* QElement.m in Sources */,
+				A20596E91A5E4C8900868E57 /* SaleEditViewController.m in Sources */,
 				A2B9B5021A25533B00609F94 /* QTextElement.m in Sources */,
 				A2B9B5331A2553D000609F94 /* QDateInlineTableViewCell.m in Sources */,
 				A28D6C521A2C005C00F2342A /* MGSplitDividerView.m in Sources */,
@@ -1022,6 +1099,7 @@
 				A2B9B4F61A25533B00609F94 /* QRadioElement.m in Sources */,
 				A2B9B4E71A25533B00609F94 /* QElement+Appearance.m in Sources */,
 				A28D6C3D1A2BFB4700F2342A /* APIManager.m in Sources */,
+				A24BEC0A1A5CE564007B0626 /* MasterViewController.m in Sources */,
 				A2B9B5261A25534100609F94 /* QMailElement.m in Sources */,
 				A2B9B5281A25534100609F94 /* QMapElement.m in Sources */,
 				A2B9B4EB1A25533B00609F94 /* QEntryTableViewCell.m in Sources */,
@@ -1033,20 +1111,21 @@
 				A28D6C571A2C043700F2342A /* SaleCell.m in Sources */,
 				A24C645A1A25753B0072B1D7 /* BuyDetailViewController.m in Sources */,
 				A2B9B4D61A25533B00609F94 /* QAppearance.m in Sources */,
+				A24BEC0C1A5CE564007B0626 /* RootViewController.m in Sources */,
+				A24BEC081A5CE564007B0626 /* DetailViewController.m in Sources */,
 				A2B9B4F41A25533B00609F94 /* QMultilineTextViewController.m in Sources */,
 				A2B9B4DA1A25533B00609F94 /* QBadgeLabel.m in Sources */,
 				A2B9B4E41A25533B00609F94 /* QDecimalElement.m in Sources */,
+				A24BEBF01A5CE442007B0626 /* NSString+DictionaryValue.m in Sources */,
 				A2B9B52A1A25534100609F94 /* QPickerElement.m in Sources */,
 				A2B9B4FA1A25533B00609F94 /* QRootElement+JsonBuilder.m in Sources */,
 				A21FD22E1A2427BF003EAD19 /* BaseViewController.m in Sources */,
-				A21FD1831A24119D003EAD19 /* NSString+Dictionary.m in Sources */,
 				A21FD2321A2427E3003EAD19 /* MainViewController.m in Sources */,
 				A2B9B5001A25533B00609F94 /* QSortingSection.m in Sources */,
-				A21FD1741A24109F003EAD19 /* MasterViewController.m in Sources */,
 				A28D6C381A2BF93400F2342A /* GoodMasterViewController.m in Sources */,
-				A28F63851A23048E003C2900 /* RootViewController.m in Sources */,
 				A2B9B4D51A25533B00609F94 /* NSMutableArray+MoveObject.m in Sources */,
 				A2B9B4D91A25533B00609F94 /* QBadgeElement.m in Sources */,
+				A24BEC0E1A5CE564007B0626 /* Util.m in Sources */,
 				A2B9B5251A25534100609F94 /* QColorPickerElement.m in Sources */,
 				A2B9B4F51A25533B00609F94 /* QProgressElement.m in Sources */,
 				A2B9B4E51A25533B00609F94 /* QDecimalTableViewCell.m in Sources */,
@@ -1054,6 +1133,7 @@
 				A2B9B4F21A25533B00609F94 /* QLoadingElement.m in Sources */,
 				A2B9B4D71A25533B00609F94 /* QAutoEntryElement.m in Sources */,
 				A2B9B4D81A25533B00609F94 /* QAutoEntryTableViewCell.m in Sources */,
+				A24BEC161A5CE61C007B0626 /* NSString+NSArray.m in Sources */,
 				A28D6C211A2BF0B100F2342A /* BaseModel.m in Sources */,
 				A2B9B4FD1A25533B00609F94 /* QSegmentedElement.m in Sources */,
 			);

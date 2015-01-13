@@ -44,6 +44,7 @@
 
 }
 -(NSMutableArray*)addDataList:(NSArray*)array{
+    [self.items removeAllObjects];
     [self.items addObjectsFromArray:array];
     return self.items;
 }
